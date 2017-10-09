@@ -1,0 +1,86 @@
+* {
+       padding:0;
+       margin:0;
+       border:0;
+}
+
+body{
+background-color:#ecf2f9;
+width:100%;
+overflow:scroll;
+text-align:center;}
+
+#maincontent{
+width:1400px;
+margin:0 auto;
+text-align:center;
+overflow:hidden;
+min-height:670px;
+}
+
+#navbar{
+width:100%;
+height:105px;
+min-width:1300px;
+overflow:auto;
+z-index:2;
+background-color:#204060;
+position:fixed;
+}
+
+#position{
+height:105px;}
+
+footer{
+width:100%;
+overflow:hidden;
+background-color:#204060;}
+
+footer p{
+text-align:center;
+color:#FFFFFF;
+padding:10px;}
+
+nav:first-child ul{
+list-style-type:none;}
+
+nav:first-child ul li{
+display:inline;
+font-size:20px;
+}
+ 
+nav:first-child ul li a{
+text-decoration:none;
+padding-top:10px;
+padding-bottom:10px;
+padding-right:20px;
+padding-left:20px;
+border-radius:10px;
+}
+
+nav:first-child li a:link,nav:first-child li a:visited{
+font-weight:bold;
+color:#FFFFFF;
+text-align:center;}
+
+nav:first-child li a:hover,nav:first-child li a:active{
+background-color:#9fbfdf;
+}
+
+nav:first-child ul li:first-of-type{
+font-family:cursive;
+font-size:60px;
+text-shadow:3px 2px 2px #79a6d2;
+margin-right:500px;}
+
+nav:first-child ul li:first-of-type a{
+padding-top:10px;
+padding-bottom:13px;}
+
+#timeline, #catalogue{
+margin: 20px;
+height: 30px;
+background-color:#d1d1e0;}
+
+#timeline p, #catalogue p{
+color:white;}

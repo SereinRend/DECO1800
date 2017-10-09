@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Historical Hotspot</title>
+      <meta charset="UTF-8">
+      <link href="style/style.css" type="text/css" rel="stylesheet" />
+      <style>
+      #map {
+        width: 70%;
+        margin-left:15%;
+        height: 400px;
+        background-color: #d1d1e0;
+      }
+    </style>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="js/datasets.js"></script>
+    
+    
+  
+   </head>
+  
+   <body>
+      <nav id="navbar">
+      <ul>
+         <li><a href="index.html">Historical Hotspot</a></li>
+         <li><a href="main_page.html">Home</a></li>
+         <li><a href="https://data.gov.au/organization/slq">SLQ data</a></li>    
+         <li><a href="contact.html">About Us</a></li>    
+      </ul>
+      </nav>
+      
+     <div id="maincontent">
+      <div id="position"></div>
+      <div id="catalogue">
+        <label><input id="Mining" name="catalogue" type="checkbox" onchange= 'checkcata()' />Mining accident </label>
+      </div>
+      <div id="timeline"><p>space for timeline</p></div>
+      <div id="map"></div>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcB0wv7SNJp3v3cUiGUvN6PpnIdTueQd8&callback=initMap">
+    </script>
+     </div>
+
+      
+      <footer>
+        <p>2017 DECO1800 Project Smol</p>
+      </footer>
+   </body>
+</html>

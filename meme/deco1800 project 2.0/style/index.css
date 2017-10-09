@@ -1,0 +1,20 @@
+#button{
+height:100px;
+margin-top:400px;}
+
+#button a{
+text-decoration:none;
+font-size:26px;
+color:white;
+border:2px solid #204060;
+background-color:#204060;
+padding:0 10px 0 10px;
+border-radius:10px;
+box-shadow:2px 2px 2px #9fbfdf;}
+
+#button li{
+margin:10px;}
+
+div a:hover{
+text-shadow: 3px 3px 3px #f7fbe9;}
+ 

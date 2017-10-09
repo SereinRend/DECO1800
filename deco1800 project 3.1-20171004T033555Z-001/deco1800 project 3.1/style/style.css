@@ -1,0 +1,209 @@
+* {
+       padding:0;
+       margin:0;
+       border:0;
+}
+
+body{
+background-color:#fce99c;
+background-image:url("https://68.media.tumblr.com/tumblr_mcqbeugWGY1rirnzso1_400.jpg");
+width:100%;
+overflow:scroll;
+text-align:center;}
+
+#maincontent{
+width:1000px;
+margin:0 auto;
+text-align:center;
+overflow:hidden;
+min-height:670px;
+}
+
+#navbar{
+width:90%;
+height:80px;
+min-width:1300px;
+overflow:auto;
+z-index:2;
+border-width:10px;
+border-style: outset;
+margin-top:50px;
+margin-left:10px;
+border-radius:6px;
+background-color:white;
+border-color:#a6a6a6;
+box-shadow: 5px 5px 15px;
+}
+
+#navicon{
+	width:50px;
+	height:50px;
+	margin-right:10px;
+}
+
+#position{
+height:25px;}
+
+footer{
+width:100%;
+overflow:hidden;
+background-color:#204060;}
+
+footer p{
+text-align:center;
+color:#FFFFFF;
+padding:10px;}
+
+nav:first-child ul{
+list-style-type:none;}
+
+nav:first-child ul li{
+display:inline;
+font-size:20px;
+}
+ 
+nav:first-child ul li a{
+text-decoration:none;
+padding-top:10px;
+padding-bottom:10px;
+padding-right:20px;
+padding-left:20px;
+border-radius:10px;
+}
+
+nav:first-child li a:link,nav:first-child li a:visited{
+font-family: 'Permanent Marker', cursive;
+font-weight:bold;
+color:#204060;
+text-align:center;}
+
+nav:first-child li a:hover,nav:first-child li a:active{
+text-decoration:underline;
+}
+
+nav:first-child ul li:first-of-type{
+font-family: 'Permanent Marker', cursive;
+font-size:50px;
+margin-right:100px;
+margin-left:0px;
+margin-top:0px;
+margin-bottom:0px;
+}
+
+nav:first-child ul li:first-of-type a{
+padding-top:5px;
+padding-bottom:5px;}
+
+#catalogue{
+margin: 20px;
+height: 30px;
+border:6px;
+border-style:solid;
+border-color:#00802b;
+background-color:#ffffff;
+padding-top:10px;
+transform:rotate(-0.5deg);
+box-shadow:2px 2px 5px;
+}
+
+#catalogue p{
+color:white;}
+
+.catlabel{
+font-family: 'Sedgwick Ave', cursive;
+margin-left:50px;
+margin-right:50px;
+}
+
+
+.tape {
+position: relative;
+text-align: center;
+display: inline-block; *display: inline; zoom: 1;
+margin: 20px auto 10px;
+}
+.one:before,
+.two:before, .two:after,
+.three:before, .three:after,
+.four:before, .four:after {
+content: "";
+display: block;
+width: 100px;
+height: 30px;
+position: relative;
+top: 20px;
+margin: auto;
+background: rgba(255,255,200,0.6);
+-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.tape img {
+display: inline-block; *display: inline; zoom: 1;
+border: 1px solid #ddd;
+margin: 0 20px;
+padding: 8px;
+background: #fff;
+text-align:center;
+vertical-align:top;
+-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+box-shadow: 0px 1px 3px rgba(0,0,0,0.4);
+}
+.two:before, .two:after {
+position: absolute;
+top: 10px;
+}
+.two:before {
+left: 0;
+-webkit-transform: rotate(-35deg);
+-moz-transform: rotate(-35deg);
+transform: rotate(-35deg);
+
+}
+.two:after {
+right: 0;
+-webkit-transform: rotate(45deg);
+-moz-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.three:before, .three:after {
+position: absolute;
+top: 10px;
+}
+.three:before {
+left: 0;
+-webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.three:after {
+top: inherit;
+bottom: 10px;
+right: 0;
+-webkit-transform: rotate(-35deg);
+-moz-transform: rotate(-35deg);
+transform: rotate(-35deg);
+}
+.four:before, .four:after {
+width: 30px;
+height: 100px;
+position: absolute;
+top: 50%;
+margin-top: -50px;
+}
+.four:before {
+left: 10px;
+-webkit-transform: rotate(3deg);
+-moz-transform: rotate(3deg);
+transform: rotate(3deg);
+}
+.four:after {
+margin-top: -60px;
+right: 10px;
+}
+
+#204060
+
+text-shadow:3px 2px 2px #79a6d2;
+background-color:#9fbfdf;

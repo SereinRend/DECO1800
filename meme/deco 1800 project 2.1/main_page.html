@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Historical Hotspot</title>
+      <meta charset="UTF-8">
+      <link href="style/style.css" type="text/css" rel="stylesheet" />
+      <style>
+      #map {
+        width: 70%;
+        margin-left:15%;
+        height: 400px;
+        background-color: #d1d1e0;
+      }
+    </style>
+    <script src="jquery-3.2.1.js"></script>
+    
+    
+    
+  
+   </head>
+  
+   <body>
+      <nav id="navbar">
+      <ul>
+         <li><a href="index.html">Historical Hotspot</a></li>
+         <li><a href="main_page.html">Home</a></li>
+         <li><a href="https://data.gov.au/organization/slq">SLQ data</a></li>    
+         <li><a href="contact.html">About Us</a></li>    
+      </ul>
+      </nav>
+      
+     <div id="maincontent">
+      <div id="position"></div>
+      <div id="catalogue"><p>catalogue</p></div>
+      <div id="timeline"><p>space for timeline</p></div>
+      <div id="map"></div>
+      <section id="records"></section>
+      <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcB0wv7SNJp3v3cUiGUvN6PpnIdTueQd8&callback=initMap">
+    </script>
+     </div>
+
+     <section id="soldier_records"></section>
+     <section id="convict_records"></section>
+     <section id="photo_records"></section>
+     <section id="picture_records"></section>
+     <section id="mining_records"></section>
+     
+
+
+    <script src="datasets.js"></script>
+    <script src="markerclusterer.js"></script>
+
+      
+      <footer>
+        <p>2017 DECO1800 Project Smol</p>
+      </footer>
+   </body>
+</html>

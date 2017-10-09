@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+      <link href="style/style.css" type="text/css" rel="stylesheet" />
+      <title id="title">Historical Hotspot</title>
+      <meta charset="UTF-8">
+      <style>
+      #map {
+        width: 70%;
+        margin-left:15%;
+        height: 400px;
+        background-color: #d1d1e0;
+      }
+    </style>
+    <script src="jquery-3.2.1.js"></script>
+    <script async defer src="js/markerclusterer.js"></script>
+    <script async defer src="js/datasets.js" type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcB0wv7SNJp3v3cUiGUvN6PpnIdTueQd8&callback=initMap"></script>  
+   </head>
+  
+   <body>
+      <nav id="navbar">
+
+      <ul>
+         <li><a href="index.html"><img src="https://cdn1.iconfinder.com/data/icons/map-location-set/512/map_location-128.png" alt="PLACEHOLDER USE A DIFFERENT ONE" id="navicon">Historical Hotspot</a></li>
+         <li><a href="main_page.html">Home</a></li>
+         <li><a href="">How To Use</a></li>
+         <li><a href="https://data.gov.au/organization/slq">SLQ data</a></li>    
+         <li><a href="contact.html">About Us</a></li>    
+      </ul>
+      </nav>
+      
+     <div id="maincontent">
+      <div id="position"></div>
+      <div id="catalogue">
+        <label class="catlabel"><input id="Mining" name="catalogue" type="checkbox" onchange= 'checkcata()' />Mining accidents </label>
+        <label class="catlabel"><input id="Convict" name="catalogue" type="checkbox" onchange= 'checkcata()' />Convict arrival </label>
+        <label class="catlabel"><input id="Photo" name="catalogue" type="checkbox" onchange= 'checkcata()' />Photos </label>
+        <label class="catlabel"><input id="Picture" name="catalogue" type="checkbox" onchange= 'checkcata()' />Pictures </label>
+      </div>
+      <div id="map" ></div>
+     </div>
+      
+      
+      <footer>
+        <p>2017 DECO1800 Project Smol</p>
+      </footer>
+   </body>
+</html>
